@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pedidos
+    username: pedidos
+    password: pedidos
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
